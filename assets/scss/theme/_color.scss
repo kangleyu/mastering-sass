@@ -1,0 +1,43 @@
+$red: hsl(0, 57%, 60%) !default; 
+$dark-grey: hsl(0, 3%, 22%) !default; 
+ 
+$theme: ( 
+  color: ( 
+    primary: $red, 
+    secondary: $dark-grey 
+  ) 
+) !default;
+
+.top-nav, .main-nav { 
+  a, [class^="ion-"] { 
+    color: white; 
+  } 
+} 
+
+.top-nav { 
+  background-color: get($theme, color, primary); 
+
+  a { 
+    @include hover-link; 
+  } 
+}
+
+.main { 
+  &-nav { 
+    background-color: get($theme, color, secondary); 
+
+    &-menu-item { 
+      a { 
+        text-decoration: none; 
+      } 
+
+      &:hover a { 
+        color: get($theme, color, primary); 
+      } 
+    } 
+  } 
+
+  &-header-title > span { 
+    color: get($theme, color, primary); 
+  } 
+} 
