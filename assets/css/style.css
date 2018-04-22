@@ -1509,7 +1509,7 @@ p, h1, h2, h3, h4, h5, h6 {
 .testimonial-title {
   margin-top: 0;
   text-transform: uppercase;
-  color: black;
+  color: white;
   margin-top: 1em;
 }
 /* line 28, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/helpers/mixins/_media.scss */
@@ -1531,23 +1531,27 @@ p, h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
   text-decoration: none;
   color: white;
-  background-color: black;
+  background-color: white;
   border: 1px solid transparent;
   float: none;
 }
 /* line 55, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/helpers/mixins/_media.scss */
 .testimonial-button:hover {
-  color: black;
+  color: white;
   background: transparent;
   border: 1px solid;
 }
 /* line 12, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_testimonials.scss */
+.testimonial blockquote, .testimonial cite {
+  color: white;
+}
+/* line 16, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_testimonials.scss */
 .testimonials {
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
 }
-/* line 19, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_testimonials.scss */
+/* line 23, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_testimonials.scss */
 .testimonials-overlay {
   min-height: 300px;
   padding-top: 2em;
