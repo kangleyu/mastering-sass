@@ -1552,17 +1552,26 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 /* line 4, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_services.scss */
 .services {
+  max-width: 1160px;
+  margin-left: auto;
+  margin-right: auto;
   padding: 1em 0.5em;
+}
+/* line 12, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/bower_components/susy/sass/susy/output/support/_clearfix.scss */
+.services:after {
+  content: " ";
+  display: block;
+  clear: both;
 }
 
 @media (min-width: 480px) {
-  /* line 10, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_services.scss */
+  /* line 11, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_services.scss */
   .service {
     width: 48.93617%;
     float: left;
     margin-right: 2.12766%;
   }
-  /* line 13, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_services.scss */
+  /* line 14, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_services.scss */
   .service:nth-child(2), .service:nth-child(4) {
     width: 48.93617%;
     float: right;
@@ -1570,19 +1579,19 @@ p, h1, h2, h3, h4, h5, h6 {
   }
 }
 @media (min-width: 768px) {
-  /* line 20, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_services.scss */
+  /* line 21, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_services.scss */
   .service {
     width: 23.40426%;
     float: left;
     margin-right: 2.12766%;
   }
-  /* line 23, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_services.scss */
+  /* line 24, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_services.scss */
   .service:nth-child(2) {
     width: 23.40426%;
     float: left;
     margin-right: 2.12766%;
   }
-  /* line 27, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_services.scss */
+  /* line 28, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_services.scss */
   .service:nth-child(4) {
     width: 23.40426%;
     float: right;
@@ -6121,6 +6130,34 @@ body {
 /* line 22, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/theme/_typography.scss */
 h1, h2, h3, h4, h5, h6 {
   font-family: "Robot", Helvetica, Arial, Sans-serif;
+}
+
+/* line 26, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/theme/_typography.scss */
+.service > p {
+  min-height: 4.5em;
+}
+/* line 4, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/helpers/mixins/_dropcap.scss */
+.service > p:first-of-type:first-letter {
+  float: left;
+  padding-top: 0.09em;
+  padding-right: 0.225em;
+  font-size: 4.5em;
+  font-family: "Bilbo Swash Caps", cursive;
+  color: black;
+}
+
+/* line 30, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/theme/_typography.scss */
+.subfooter-widget-section-text > p {
+  min-height: 4.5em;
+}
+/* line 4, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/helpers/mixins/_dropcap.scss */
+.subfooter-widget-section-text > p:first-of-type:first-letter {
+  float: left;
+  padding-top: 0.09em;
+  padding-right: 0.225em;
+  font-size: 4.5em;
+  font-family: "Bilbo Swash Caps", cursive;
+  color: black;
 }
 
 @media (min-width: 768px) {
