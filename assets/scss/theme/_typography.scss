@@ -30,16 +30,23 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 2em; 
     padding-bottom: 0.5em; 
   } 
+}
+
+.subfooter-widget-section { 
+  &-text > p { 
+    @include dropcap; 
+  } 
+
+  &-tagcloud { 
+    @include tag-cloud; 
+  } 
+
+  &-socials {
+    font-size: 2em;
+  } 
+}
+.section-title { 
+  @include underline(center, get($theme, color, primary)); 
+
+  padding-top: $spacing; 
 } 
-
-// .service > p {
-//   @include dropcap;
-// }
-
-.subfooter-widget-section-text > p {
-  @include dropcap;
-}
-
-.subfooter-widget-section-tagcloud {
-  @include tag-cloud;
-}

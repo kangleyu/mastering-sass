@@ -1047,666 +1047,6 @@ p, h1, h2, h3, h4, h5, h6 {
     margin-right: 0;
   }
 }
-/* line 1, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_top-nav.scss */
-.top-nav {
-  overflow: hidden;
-}
-/* line 4, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_top-nav.scss */
-.top-nav-menu-button {
-  padding: 0.5em;
-}
-@media (min-width: 480px) {
-  /* line 4, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_top-nav.scss */
-  .top-nav-menu-button {
-    display: none;
-  }
-}
-/* line 11, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_top-nav.scss */
-.top-nav-menu-button ~ * {
-  display: none;
-}
-@media (min-width: 480px) {
-  /* line 11, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_top-nav.scss */
-  .top-nav-menu-button ~ * {
-    display: block;
-  }
-}
-/* line 20, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_top-nav.scss */
-.top-nav-menu-item {
-  padding: 0.5em;
-  display: block;
-}
-@media (min-width: 480px) {
-  /* line 20, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_top-nav.scss */
-  .top-nav-menu-item {
-    display: inline-block;
-  }
-}
-@media (min-width: 768px) {
-  /* line 29, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_top-nav.scss */
-  .top-nav-contact-menu {
-    float: left;
-  }
-}
-@media (min-width: 768px) {
-  /* line 35, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_top-nav.scss */
-  .top-nav-shop-menu {
-    float: right;
-  }
-}
-
-/* line 1, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_main-header.scss */
-.main-header {
-  overflow: hidden;
-}
-/* line 4, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_main-header.scss */
-.main-header-inner {
-  padding: 0.5em;
-}
-/* line 7, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_main-header.scss */
-.main-header-inner-left {
-  width: 100%;
-  float: left;
-  margin-left: 0;
-  margin-right: 0;
-}
-@media (min-width: 768px) {
-  /* line 7, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_main-header.scss */
-  .main-header-inner-left {
-    width: 65.95745%;
-    float: left;
-    margin-right: 2.12766%;
-  }
-}
-/* line 15, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_main-header.scss */
-.main-header-inner-right {
-  width: 100%;
-  float: left;
-  margin-left: 0;
-  margin-right: 0;
-}
-@media (min-width: 768px) {
-  /* line 15, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_main-header.scss */
-  .main-header-inner-right {
-    width: 31.91489%;
-    float: right;
-    margin-right: 0;
-    padding-top: 1.4em;
-  }
-}
-/* line 25, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_main-header.scss */
-.main-header-title {
-  font-size: 1.75em;
-}
-/* line 28, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_main-header.scss */
-.main-header-title > span {
-  font-family: "Bilbo Swash Caps", cursive;
-  font-size: 2em;
-  font-style: italic;
-}
-@media (min-width: 768px) {
-  /* line 25, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_main-header.scss */
-  .main-header-title {
-    margin-top: 0.4em;
-    line-height: 1.5em;
-  }
-}
-
-/* line 1, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_main-nav.scss */
-.main-nav {
-  overflow: hidden;
-}
-/* line 4, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_main-nav.scss */
-.main-nav-menu-button {
-  padding: 0.5em;
-}
-@media (min-width: 480px) {
-  /* line 4, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_main-nav.scss */
-  .main-nav-menu-button {
-    display: none;
-  }
-}
-/* line 11, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_main-nav.scss */
-.main-nav-menu-button ~ * {
-  display: none;
-}
-@media (min-width: 480px) {
-  /* line 11, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_main-nav.scss */
-  .main-nav-menu-button ~ * {
-    display: block;
-  }
-}
-/* line 20, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_main-nav.scss */
-.main-nav-menu-item {
-  padding: 0.5em;
-  display: block;
-}
-@media (min-width: 480px) {
-  /* line 20, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_main-nav.scss */
-  .main-nav-menu-item {
-    display: inline-block;
-  }
-}
-
-/* line 6, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_image-banner.scss */
-.image-banner {
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-/* line 11, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_image-banner.scss */
-.image-banner-overlay {
-  height: 200px;
-  background-color: rgba(0, 0, 0, 0.5);
-}
-@media (min-width: 980px) {
-  /* line 11, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_image-banner.scss */
-  .image-banner-overlay {
-    height: 400px;
-  }
-}
-/* line 20, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_image-banner.scss */
-.image-banner-caption {
-  max-width: 1160px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 0.5em;
-  overflow: hidden;
-  color: white;
-}
-/* line 12, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/bower_components/susy/sass/susy/output/support/_clearfix.scss */
-.image-banner-caption:after {
-  content: " ";
-  display: block;
-  clear: both;
-}
-@media (min-width: 980px) {
-  /* line 20, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_image-banner.scss */
-  .image-banner-caption {
-    position: relative;
-    top: 100px;
-  }
-}
-/* line 31, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_image-banner.scss */
-.image-banner-caption-title {
-  margin-top: 0;
-  text-transform: uppercase;
-  color: white;
-}
-/* line 28, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/helpers/mixins/_media.scss */
-.image-banner-caption-title a {
-  text-decoration: none;
-  color: inherit;
-}
-/* line 4, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/helpers/mixins/_hover-link.scss */
-.image-banner-caption-title a:hover, .image-banner-caption-title a:focus {
-  text-decoration: underline;
-}
-/* line 31, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/helpers/mixins/_media.scss */
-.image-banner-caption-title a:hover {
-  color: inherit;
-}
-/* line 36, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_image-banner.scss */
-.image-banner-button {
-  padding: 0.25em 0.5em;
-  text-transform: uppercase;
-  text-decoration: none;
-  color: white;
-  background-color: #d35f5f;
-  border: 1px solid transparent;
-  float: none;
-}
-/* line 55, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/helpers/mixins/_media.scss */
-.image-banner-button:hover {
-  color: #d35f5f;
-  background: transparent;
-  border: 1px solid;
-}
-
-/* line 1, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_search.scss */
-.search-bar {
-  position: relative;
-}
-/* line 4, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_search.scss */
-.search-bar-input {
-  width: 100%;
-  line-height: 1.4;
-  max-height: 2em;
-  padding: 0.25em 2em 0.25em 0.25em;
-}
-/* line 14, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_search.scss */
-.search-bar-button {
-  line-height: 1.4;
-  max-height: 2em;
-  padding: 0.25em 0.5em;
-  position: absolute;
-  right: 0;
-  top: 0;
-}
-
-/* line 13, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_cart.scss */
-.cart {
-  height: 100vh;
-  width: 100vw;
-  position: absolute;
-  padding: 1em;
-  top: 0;
-  bottom: 0;
-  z-index: 9999;
-  right: -100vw;
-  transition: transform 350ms;
-  background-color: white;
-}
-@media (min-width: 768px) {
-  /* line 13, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_cart.scss */
-  .cart {
-    width: 20em;
-    right: -20em;
-  }
-}
-/* line 51, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_cart.scss */
-.cart-list {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  overflow: hidden;
-}
-/* line 57, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_cart.scss */
-.cart-list-item {
-  padding: 1em 1em 1em 0;
-  overflow: hidden;
-}
-/* line 60, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_cart.scss */
-.cart-list-item-image {
-  display: block;
-  float: left;
-  margin-right: 1em;
-  max-width: 50px;
-  height: auto;
-}
-/* line 67, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_cart.scss */
-.cart-list-item-title {
-  margin-top: 0;
-  text-transform: uppercase;
-  color: black;
-}
-/* line 28, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/helpers/mixins/_media.scss */
-.cart-list-item-title a {
-  text-decoration: none;
-  color: inherit;
-}
-/* line 4, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/helpers/mixins/_hover-link.scss */
-.cart-list-item-title a:hover, .cart-list-item-title a:focus {
-  text-decoration: underline;
-}
-/* line 31, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/helpers/mixins/_media.scss */
-.cart-list-item-title a:hover {
-  color: inherit;
-}
-/* line 71, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_cart.scss */
-.cart-list-item-price {
-  float: left;
-}
-/* line 73, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_cart.scss */
-.cart-list-item-price-label {
-  font-weight: bold;
-}
-/* line 78, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_cart.scss */
-.cart-list-item-remove {
-  text-decoration: none;
-  float: right;
-}
-/* line 4, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/helpers/mixins/_hover-link.scss */
-.cart-list-item-remove:hover, .cart-list-item-remove:focus {
-  text-decoration: underline;
-}
-
-/* line 86, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_cart.scss */
-.cart.is-opened {
-  transform: translateX(-100vw);
-}
-@media (min-width: 768px) {
-  /* line 86, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_cart.scss */
-  .cart.is-opened {
-    transform: translateX(-20em);
-  }
-}
-
-/* line 1, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_featured-product.scss */
-.featured-product {
-  width: 100%;
-  float: left;
-  margin-left: 0;
-  margin-right: 0;
-  padding-left: 1em;
-  padding-right: 1em;
-}
-/* line 7, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_featured-product.scss */
-.featured-product-title {
-  padding-top: 1em;
-}
-/* line 11, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_featured-product.scss */
-.featured-products {
-  max-width: 1160px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 1em 0.5em;
-}
-/* line 12, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/bower_components/susy/sass/susy/output/support/_clearfix.scss */
-.featured-products:after {
-  content: " ";
-  display: block;
-  clear: both;
-}
-
-@media (min-width: 480px) {
-  /* line 19, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_featured-product.scss */
-  .featured-product {
-    width: 48.93617%;
-    float: left;
-    margin-right: 2.12766%;
-  }
-  /* line 22, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_featured-product.scss */
-  .featured-product:nth-child(2), .featured-product:nth-child(4) {
-    width: 48.93617%;
-    float: right;
-    margin-right: 0;
-  }
-}
-@media (min-width: 768px) {
-  /* line 30, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_featured-product.scss */
-  .featured-product {
-    width: 23.40426%;
-    float: left;
-    margin-right: 2.12766%;
-  }
-  /* line 35, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_featured-product.scss */
-  .featured-product:nth-child(2) {
-    width: 23.40426%;
-    float: left;
-    margin-right: 2.12766%;
-  }
-  /* line 39, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_featured-product.scss */
-  .featured-product:nth-child(4) {
-    width: 23.40426%;
-    float: right;
-    margin-right: 0;
-  }
-}
-/* line 1, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_product-centered.scss */
-.product-centered {
-  padding: 1em;
-  overflow: hidden;
-  text-align: center;
-  padding-left: 0;
-  padding-right: 0;
-}
-/* line 88, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/helpers/mixins/_media.scss */
-.product-centered-image {
-  display: block;
-  float: none;
-  margin: 0 auto;
-  width: 100%;
-  height: auto;
-}
-/* line 101, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/helpers/mixins/_media.scss */
-.product-centered-title {
-  margin-top: 0;
-  text-transform: uppercase;
-  color: #d35f5f;
-  margin-top: 1em;
-}
-/* line 28, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/helpers/mixins/_media.scss */
-.product-centered-title a {
-  text-decoration: none;
-  color: inherit;
-}
-/* line 4, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/helpers/mixins/_hover-link.scss */
-.product-centered-title a:hover, .product-centered-title a:focus {
-  text-decoration: underline;
-}
-/* line 31, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/helpers/mixins/_media.scss */
-.product-centered-title a:hover {
-  color: inherit;
-}
-/* line 107, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/helpers/mixins/_media.scss */
-.product-centered-button {
-  padding: 0.25em 0.5em;
-  text-transform: uppercase;
-  text-decoration: none;
-  color: white;
-  background-color: #d35f5f;
-  border: 1px solid transparent;
-  float: none;
-}
-/* line 55, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/helpers/mixins/_media.scss */
-.product-centered-button:hover {
-  color: #d35f5f;
-  background: transparent;
-  border: 1px solid;
-}
-/* line 7, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_product-centered.scss */
-.product-centered-title {
-  margin-top: 0;
-}
-
-/* line 6, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_testimonials.scss */
-.testimonial {
-  max-width: 20em;
-  margin: 0 auto;
-  padding: 1em;
-  overflow: hidden;
-  text-align: center;
-}
-/* line 88, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/helpers/mixins/_media.scss */
-.testimonial-image {
-  display: block;
-  float: none;
-  margin: 0 auto;
-  border-radius: 9999px;
-}
-/* line 101, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/helpers/mixins/_media.scss */
-.testimonial-title {
-  margin-top: 0;
-  text-transform: uppercase;
-  color: white;
-  margin-top: 1em;
-}
-/* line 28, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/helpers/mixins/_media.scss */
-.testimonial-title a {
-  text-decoration: none;
-  color: inherit;
-}
-/* line 4, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/helpers/mixins/_hover-link.scss */
-.testimonial-title a:hover, .testimonial-title a:focus {
-  text-decoration: underline;
-}
-/* line 31, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/helpers/mixins/_media.scss */
-.testimonial-title a:hover {
-  color: inherit;
-}
-/* line 107, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/helpers/mixins/_media.scss */
-.testimonial-button {
-  padding: 0.25em 0.5em;
-  text-transform: uppercase;
-  text-decoration: none;
-  color: white;
-  background-color: white;
-  border: 1px solid transparent;
-  float: none;
-}
-/* line 55, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/helpers/mixins/_media.scss */
-.testimonial-button:hover {
-  color: white;
-  background: transparent;
-  border: 1px solid;
-}
-/* line 12, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_testimonials.scss */
-.testimonial blockquote, .testimonial cite {
-  color: white;
-}
-/* line 16, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_testimonials.scss */
-.testimonials {
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-/* line 23, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_testimonials.scss */
-.testimonials-overlay {
-  min-height: 300px;
-  padding-top: 2em;
-  padding-bottom: 2em;
-  background-color: rgba(0, 0, 0, 0.5);
-}
-
-/* line 1, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_services.scss */
-.service {
-  width: 100%;
-  float: left;
-  margin-left: 0;
-  margin-right: 0;
-}
-/* line 4, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_services.scss */
-.services {
-  max-width: 1160px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 1em 0.5em;
-}
-/* line 12, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/bower_components/susy/sass/susy/output/support/_clearfix.scss */
-.services:after {
-  content: " ";
-  display: block;
-  clear: both;
-}
-
-@media (min-width: 480px) {
-  /* line 11, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_services.scss */
-  .service {
-    width: 48.93617%;
-    float: left;
-    margin-right: 2.12766%;
-  }
-  /* line 14, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_services.scss */
-  .service:nth-child(2), .service:nth-child(4) {
-    width: 48.93617%;
-    float: right;
-    margin-right: 0;
-  }
-}
-@media (min-width: 768px) {
-  /* line 21, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_services.scss */
-  .service {
-    width: 23.40426%;
-    float: left;
-    margin-right: 2.12766%;
-  }
-  /* line 24, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_services.scss */
-  .service:nth-child(2) {
-    width: 23.40426%;
-    float: left;
-    margin-right: 2.12766%;
-  }
-  /* line 28, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_services.scss */
-  .service:nth-child(4) {
-    width: 23.40426%;
-    float: right;
-    margin-right: 0;
-  }
-}
-/* line 1, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_subfooter.scss */
-.subfooter {
-  padding: 1em 0.5em;
-}
-/* line 4, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_subfooter.scss */
-.subfooter ul {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-}
-/* line 10, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_subfooter.scss */
-.subfooter-widget {
-  width: 100%;
-  float: left;
-  margin-left: 0;
-  margin-right: 0;
-}
-/* line 13, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_subfooter.scss */
-.subfooter-widget-product {
-  padding: 1em;
-  overflow: hidden;
-  padding: 0 0 0.5em 0;
-}
-/* line 18, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_subfooter.scss */
-.subfooter-widget-product-image {
-  display: block;
-  float: left;
-  margin-right: 1em;
-}
-/* line 22, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_subfooter.scss */
-.subfooter-widget-product-title {
-  margin-top: 0;
-  text-transform: uppercase;
-  color: black;
-  margin: 0;
-}
-/* line 28, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/helpers/mixins/_media.scss */
-.subfooter-widget-product-title a {
-  text-decoration: none;
-  color: inherit;
-}
-/* line 4, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/helpers/mixins/_hover-link.scss */
-.subfooter-widget-product-title a:hover, .subfooter-widget-product-title a:focus {
-  text-decoration: underline;
-}
-/* line 31, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/helpers/mixins/_media.scss */
-.subfooter-widget-product-title a:hover {
-  color: inherit;
-}
-/* line 30, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_subfooter.scss */
-.subfooter-widget-section-socials li, .subfooter-widget-section-tagcloud li {
-  display: inline-block;
-}
-
-@media (min-width: 768px) {
-  /* line 40, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_subfooter.scss */
-  .subfooter-widget {
-    width: 31.91489%;
-    float: left;
-    margin-right: 2.12766%;
-  }
-  /* line 43, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_subfooter.scss */
-  .subfooter-widget:last-child {
-    width: 31.91489%;
-    float: right;
-    margin-right: 0;
-  }
-}
-/* line 1, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_footer.scss */
-.footer {
-  overflow: hidden;
-}
-@media (min-width: 768px) {
-  /* line 4, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_footer.scss */
-  .footer-copyright, .footer-nav {
-    width: 50%;
-    float: left;
-  }
-}
-/* line 11, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_footer.scss */
-.footer-copyright {
-  padding: 1em 0.5em;
-}
-/* line 15, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_footer.scss */
-.footer-nav-menu {
-  float: right;
-}
-/* line 18, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_footer.scss */
-.footer-nav-menu-item a {
-  display: inline-block;
-  padding: 1em 0.5em;
-}
-
 /*!
   Ionicons, v2.0.1
   Created by Ben Sperry for the Ionic Framework, http://ionicons.com/
@@ -6158,7 +5498,7 @@ h1, h2, h3, h4, h5, h6 {
   padding-bottom: 0.5em;
 }
 
-/* line 39, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/theme/_typography.scss */
+/* line 36, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/theme/_typography.scss */
 .subfooter-widget-section-text > p {
   min-height: 4.5em;
 }
@@ -6171,7 +5511,6 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Bilbo Swash Caps", cursive;
   color: black;
 }
-
 /* line 2, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/helpers/mixins/_tag-cloud.scss */
 .subfooter-widget-section-tagcloud .xs {
   font-size: 0.5em;
@@ -6191,6 +5530,29 @@ h1, h2, h3, h4, h5, h6 {
 /* line 18, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/helpers/mixins/_tag-cloud.scss */
 .subfooter-widget-section-tagcloud .xl {
   font-size: 1.5em;
+}
+/* line 44, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/theme/_typography.scss */
+.subfooter-widget-section-socials {
+  font-size: 2em;
+}
+
+/* line 48, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/theme/_typography.scss */
+.section-title {
+  text-align: center;
+  padding-top: 1em;
+}
+/* line 4, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/helpers/mixins/_underline.scss */
+.section-title::after {
+  display: block;
+  content: " ";
+  position: relative;
+  height: 3px;
+  background-color: #d35f5f;
+  top: 0;
+  width: 3em;
+  margin-top: 0.75em;
+  left: 50%;
+  margin-left: -1.5em;
 }
 
 /* line 12, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/theme/_color.scss */
@@ -6246,8 +5608,705 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #d35f5f;
 }
 
+/* line 65, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/theme/_color.scss */
+.service [class^="ion-"] {
+  color: #d35f5f;
+}
+
+/* line 69, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/theme/_color.scss */
+.footer {
+  background-color: #3a3636;
+  color: white;
+}
+/* line 73, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/theme/_color.scss */
+.footer a,
+.footer a:hover,
+.footer .subfooter a,
+.footer .subfooter a:hover {
+  text-decoration: none;
+  color: #d35f5f;
+}
+/* line 4, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/helpers/mixins/_hover-link.scss */
+.footer a:hover, .footer a:focus,
+.footer a:hover:hover,
+.footer a:hover:focus,
+.footer .subfooter a:hover,
+.footer .subfooter a:focus,
+.footer .subfooter a:hover:hover,
+.footer .subfooter a:hover:focus {
+  text-decoration: underline;
+}
+/* line 81, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/theme/_color.scss */
+.footer .subfooter-widget-section-text > p:first-of-type::first-letter {
+  color: #d35f5f;
+}
+/* line 85, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/theme/_color.scss */
+.footer .footer-inner:last-child {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* line 1, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_top-nav.scss */
+.top-nav {
+  overflow: hidden;
+}
+/* line 4, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_top-nav.scss */
+.top-nav-menu-button {
+  padding: 0.5em;
+}
+@media (min-width: 480px) {
+  /* line 4, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_top-nav.scss */
+  .top-nav-menu-button {
+    display: none;
+  }
+}
+/* line 11, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_top-nav.scss */
+.top-nav-menu-button ~ * {
+  display: none;
+}
+@media (min-width: 480px) {
+  /* line 11, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_top-nav.scss */
+  .top-nav-menu-button ~ * {
+    display: block;
+  }
+}
+/* line 20, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_top-nav.scss */
+.top-nav-menu-item {
+  padding: 0.5em;
+  display: block;
+}
+@media (min-width: 480px) {
+  /* line 20, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_top-nav.scss */
+  .top-nav-menu-item {
+    display: inline-block;
+  }
+}
 @media (min-width: 768px) {
-  /* line 90, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/style.scss */
+  /* line 29, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_top-nav.scss */
+  .top-nav-contact-menu {
+    float: left;
+  }
+}
+@media (min-width: 768px) {
+  /* line 35, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_top-nav.scss */
+  .top-nav-shop-menu {
+    float: right;
+  }
+}
+
+/* line 1, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_main-header.scss */
+.main-header {
+  overflow: hidden;
+}
+/* line 4, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_main-header.scss */
+.main-header-inner {
+  padding: 0.5em;
+}
+/* line 7, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_main-header.scss */
+.main-header-inner-left {
+  width: 100%;
+  float: left;
+  margin-left: 0;
+  margin-right: 0;
+}
+@media (min-width: 768px) {
+  /* line 7, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_main-header.scss */
+  .main-header-inner-left {
+    width: 65.95745%;
+    float: left;
+    margin-right: 2.12766%;
+  }
+}
+/* line 15, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_main-header.scss */
+.main-header-inner-right {
+  width: 100%;
+  float: left;
+  margin-left: 0;
+  margin-right: 0;
+}
+@media (min-width: 768px) {
+  /* line 15, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_main-header.scss */
+  .main-header-inner-right {
+    width: 31.91489%;
+    float: right;
+    margin-right: 0;
+    padding-top: 1.4em;
+  }
+}
+/* line 25, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_main-header.scss */
+.main-header-title {
+  font-size: 1.75em;
+}
+/* line 28, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_main-header.scss */
+.main-header-title > span {
+  font-family: "Bilbo Swash Caps", cursive;
+  font-size: 2em;
+  font-style: italic;
+}
+@media (min-width: 768px) {
+  /* line 25, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_main-header.scss */
+  .main-header-title {
+    margin-top: 0.4em;
+    line-height: 1.5em;
+  }
+}
+
+/* line 1, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_main-nav.scss */
+.main-nav {
+  overflow: hidden;
+}
+/* line 4, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_main-nav.scss */
+.main-nav-menu-button {
+  padding: 0.5em;
+}
+@media (min-width: 480px) {
+  /* line 4, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_main-nav.scss */
+  .main-nav-menu-button {
+    display: none;
+  }
+}
+/* line 11, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_main-nav.scss */
+.main-nav-menu-button ~ * {
+  display: none;
+}
+@media (min-width: 480px) {
+  /* line 11, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_main-nav.scss */
+  .main-nav-menu-button ~ * {
+    display: block;
+  }
+}
+/* line 20, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_main-nav.scss */
+.main-nav-menu-item {
+  padding: 0.5em;
+  display: block;
+}
+@media (min-width: 480px) {
+  /* line 20, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_main-nav.scss */
+  .main-nav-menu-item {
+    display: inline-block;
+  }
+}
+
+/* line 6, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_image-banner.scss */
+.image-banner {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* line 11, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_image-banner.scss */
+.image-banner-overlay {
+  height: 200px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+@media (min-width: 980px) {
+  /* line 11, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_image-banner.scss */
+  .image-banner-overlay {
+    height: 400px;
+  }
+}
+/* line 20, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_image-banner.scss */
+.image-banner-caption {
+  max-width: 1160px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0.5em;
+  overflow: hidden;
+  color: white;
+}
+/* line 12, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/bower_components/susy/sass/susy/output/support/_clearfix.scss */
+.image-banner-caption:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+@media (min-width: 980px) {
+  /* line 20, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_image-banner.scss */
+  .image-banner-caption {
+    position: relative;
+    top: 100px;
+  }
+}
+/* line 31, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_image-banner.scss */
+.image-banner-caption-title {
+  margin-top: 0;
+  text-transform: uppercase;
+  color: white;
+}
+/* line 28, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/helpers/mixins/_media.scss */
+.image-banner-caption-title a {
+  text-decoration: none;
+  color: inherit;
+}
+/* line 4, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/helpers/mixins/_hover-link.scss */
+.image-banner-caption-title a:hover, .image-banner-caption-title a:focus {
+  text-decoration: underline;
+}
+/* line 31, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/helpers/mixins/_media.scss */
+.image-banner-caption-title a:hover {
+  color: inherit;
+}
+/* line 36, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_image-banner.scss */
+.image-banner-button {
+  padding: 0.25em 0.5em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+  background-color: #d35f5f;
+  border: 1px solid transparent;
+  float: none;
+}
+/* line 55, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/helpers/mixins/_media.scss */
+.image-banner-button:hover {
+  color: #d35f5f;
+  background: transparent;
+  border: 1px solid;
+}
+
+/* line 1, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_search.scss */
+.search-bar {
+  position: relative;
+}
+/* line 4, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_search.scss */
+.search-bar-input {
+  width: 100%;
+  line-height: 1.4;
+  max-height: 2em;
+  padding: 0.25em 2em 0.25em 0.25em;
+}
+/* line 14, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_search.scss */
+.search-bar-button {
+  line-height: 1.4;
+  max-height: 2em;
+  padding: 0.25em 0.5em;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/* line 13, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_cart.scss */
+.cart {
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  padding: 1em;
+  top: 0;
+  bottom: 0;
+  z-index: 9999;
+  right: -100vw;
+  transition: transform 350ms;
+  background-color: white;
+}
+@media (min-width: 768px) {
+  /* line 13, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_cart.scss */
+  .cart {
+    width: 20em;
+    right: -20em;
+  }
+}
+/* line 51, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_cart.scss */
+.cart-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+}
+/* line 57, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_cart.scss */
+.cart-list-item {
+  padding: 1em 1em 1em 0;
+  overflow: hidden;
+}
+/* line 60, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_cart.scss */
+.cart-list-item-image {
+  display: block;
+  float: left;
+  margin-right: 1em;
+  max-width: 50px;
+  height: auto;
+}
+/* line 67, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_cart.scss */
+.cart-list-item-title {
+  margin-top: 0;
+  text-transform: uppercase;
+  color: black;
+}
+/* line 28, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/helpers/mixins/_media.scss */
+.cart-list-item-title a {
+  text-decoration: none;
+  color: inherit;
+}
+/* line 4, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/helpers/mixins/_hover-link.scss */
+.cart-list-item-title a:hover, .cart-list-item-title a:focus {
+  text-decoration: underline;
+}
+/* line 31, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/helpers/mixins/_media.scss */
+.cart-list-item-title a:hover {
+  color: inherit;
+}
+/* line 71, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_cart.scss */
+.cart-list-item-price {
+  float: left;
+}
+/* line 73, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_cart.scss */
+.cart-list-item-price-label {
+  font-weight: bold;
+}
+/* line 78, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_cart.scss */
+.cart-list-item-remove {
+  text-decoration: none;
+  float: right;
+}
+/* line 4, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/helpers/mixins/_hover-link.scss */
+.cart-list-item-remove:hover, .cart-list-item-remove:focus {
+  text-decoration: underline;
+}
+
+/* line 86, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_cart.scss */
+.cart.is-opened {
+  transform: translateX(-100vw);
+}
+@media (min-width: 768px) {
+  /* line 86, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_cart.scss */
+  .cart.is-opened {
+    transform: translateX(-20em);
+  }
+}
+
+/* line 1, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_featured-product.scss */
+.featured-product {
+  width: 100%;
+  float: left;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+/* line 7, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_featured-product.scss */
+.featured-product-title {
+  padding-top: 1em;
+}
+/* line 11, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_featured-product.scss */
+.featured-products {
+  max-width: 1160px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1em 0.5em;
+}
+/* line 12, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/bower_components/susy/sass/susy/output/support/_clearfix.scss */
+.featured-products:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+@media (min-width: 480px) {
+  /* line 19, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_featured-product.scss */
+  .featured-product {
+    width: 48.93617%;
+    float: left;
+    margin-right: 2.12766%;
+  }
+  /* line 22, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_featured-product.scss */
+  .featured-product:nth-child(2), .featured-product:nth-child(4) {
+    width: 48.93617%;
+    float: right;
+    margin-right: 0;
+  }
+}
+@media (min-width: 768px) {
+  /* line 30, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_featured-product.scss */
+  .featured-product {
+    width: 23.40426%;
+    float: left;
+    margin-right: 2.12766%;
+  }
+  /* line 35, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_featured-product.scss */
+  .featured-product:nth-child(2) {
+    width: 23.40426%;
+    float: left;
+    margin-right: 2.12766%;
+  }
+  /* line 39, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_featured-product.scss */
+  .featured-product:nth-child(4) {
+    width: 23.40426%;
+    float: right;
+    margin-right: 0;
+  }
+}
+/* line 1, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_product-centered.scss */
+.product-centered {
+  padding: 1em;
+  overflow: hidden;
+  text-align: center;
+  padding-left: 0;
+  padding-right: 0;
+}
+/* line 88, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/helpers/mixins/_media.scss */
+.product-centered-image {
+  display: block;
+  float: none;
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+}
+/* line 101, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/helpers/mixins/_media.scss */
+.product-centered-title {
+  margin-top: 0;
+  text-transform: uppercase;
+  color: #d35f5f;
+  margin-top: 1em;
+}
+/* line 28, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/helpers/mixins/_media.scss */
+.product-centered-title a {
+  text-decoration: none;
+  color: inherit;
+}
+/* line 4, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/helpers/mixins/_hover-link.scss */
+.product-centered-title a:hover, .product-centered-title a:focus {
+  text-decoration: underline;
+}
+/* line 31, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/helpers/mixins/_media.scss */
+.product-centered-title a:hover {
+  color: inherit;
+}
+/* line 107, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/helpers/mixins/_media.scss */
+.product-centered-button {
+  padding: 0.25em 0.5em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+  background-color: #d35f5f;
+  border: 1px solid transparent;
+  float: none;
+}
+/* line 55, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/helpers/mixins/_media.scss */
+.product-centered-button:hover {
+  color: #d35f5f;
+  background: transparent;
+  border: 1px solid;
+}
+/* line 7, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_product-centered.scss */
+.product-centered-title {
+  margin-top: 0;
+}
+
+/* line 6, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_testimonials.scss */
+.testimonial {
+  max-width: 20em;
+  margin: 0 auto;
+  padding: 1em;
+  overflow: hidden;
+  text-align: center;
+}
+/* line 88, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/helpers/mixins/_media.scss */
+.testimonial-image {
+  display: block;
+  float: none;
+  margin: 0 auto;
+  border-radius: 9999px;
+}
+/* line 101, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/helpers/mixins/_media.scss */
+.testimonial-title {
+  margin-top: 0;
+  text-transform: uppercase;
+  color: white;
+  margin-top: 1em;
+}
+/* line 28, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/helpers/mixins/_media.scss */
+.testimonial-title a {
+  text-decoration: none;
+  color: inherit;
+}
+/* line 4, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/helpers/mixins/_hover-link.scss */
+.testimonial-title a:hover, .testimonial-title a:focus {
+  text-decoration: underline;
+}
+/* line 31, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/helpers/mixins/_media.scss */
+.testimonial-title a:hover {
+  color: inherit;
+}
+/* line 107, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/helpers/mixins/_media.scss */
+.testimonial-button {
+  padding: 0.25em 0.5em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+  background-color: white;
+  border: 1px solid transparent;
+  float: none;
+}
+/* line 55, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/helpers/mixins/_media.scss */
+.testimonial-button:hover {
+  color: white;
+  background: transparent;
+  border: 1px solid;
+}
+/* line 12, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_testimonials.scss */
+.testimonial blockquote, .testimonial cite {
+  color: white;
+}
+/* line 16, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_testimonials.scss */
+.testimonials {
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/* line 23, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_testimonials.scss */
+.testimonials-overlay {
+  min-height: 300px;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* line 1, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_services.scss */
+.service {
+  width: 100%;
+  float: left;
+  margin-left: 0;
+  margin-right: 0;
+}
+/* line 4, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_services.scss */
+.services {
+  max-width: 1160px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1em 0.5em;
+}
+/* line 12, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/bower_components/susy/sass/susy/output/support/_clearfix.scss */
+.services:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+@media (min-width: 480px) {
+  /* line 11, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_services.scss */
+  .service {
+    width: 48.93617%;
+    float: left;
+    margin-right: 2.12766%;
+  }
+  /* line 14, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_services.scss */
+  .service:nth-child(2), .service:nth-child(4) {
+    width: 48.93617%;
+    float: right;
+    margin-right: 0;
+  }
+}
+@media (min-width: 768px) {
+  /* line 21, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_services.scss */
+  .service {
+    width: 23.40426%;
+    float: left;
+    margin-right: 2.12766%;
+  }
+  /* line 24, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_services.scss */
+  .service:nth-child(2) {
+    width: 23.40426%;
+    float: left;
+    margin-right: 2.12766%;
+  }
+  /* line 28, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_services.scss */
+  .service:nth-child(4) {
+    width: 23.40426%;
+    float: right;
+    margin-right: 0;
+  }
+}
+/* line 1, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_subfooter.scss */
+.subfooter {
+  padding: 2em 0.5em 1em 0.5em;
+}
+/* line 4, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_subfooter.scss */
+.subfooter ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+/* line 10, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_subfooter.scss */
+.subfooter-widget {
+  width: 100%;
+  float: left;
+  margin-left: 0;
+  margin-right: 0;
+}
+/* line 13, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_subfooter.scss */
+.subfooter-widget-product {
+  padding: 1em;
+  overflow: hidden;
+  padding: 0 0 0.5em 0;
+}
+/* line 18, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_subfooter.scss */
+.subfooter-widget-product-image {
+  display: block;
+  float: left;
+  margin-right: 1em;
+}
+/* line 22, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_subfooter.scss */
+.subfooter-widget-product-title {
+  margin-top: 0;
+  text-transform: uppercase;
+  color: black;
+  margin: 0;
+}
+/* line 28, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/helpers/mixins/_media.scss */
+.subfooter-widget-product-title a {
+  text-decoration: none;
+  color: inherit;
+}
+/* line 4, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/helpers/mixins/_hover-link.scss */
+.subfooter-widget-product-title a:hover, .subfooter-widget-product-title a:focus {
+  text-decoration: underline;
+}
+/* line 31, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/helpers/mixins/_media.scss */
+.subfooter-widget-product-title a:hover {
+  color: inherit;
+}
+/* line 30, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_subfooter.scss */
+.subfooter-widget-section-socials li, .subfooter-widget-section-tagcloud li {
+  display: inline-block;
+}
+
+@media (min-width: 768px) {
+  /* line 40, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_subfooter.scss */
+  .subfooter-widget {
+    width: 31.91489%;
+    float: left;
+    margin-right: 2.12766%;
+  }
+  /* line 43, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_subfooter.scss */
+  .subfooter-widget:last-child {
+    width: 31.91489%;
+    float: right;
+    margin-right: 0;
+  }
+}
+/* line 1, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_footer.scss */
+.footer {
+  overflow: hidden;
+}
+@media (min-width: 768px) {
+  /* line 4, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_footer.scss */
+  .footer-copyright, .footer-nav {
+    width: 50%;
+    float: left;
+  }
+}
+/* line 11, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_footer.scss */
+.footer-copyright {
+  padding: 1em 0.5em;
+}
+/* line 15, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_footer.scss */
+.footer-nav-menu {
+  float: right;
+}
+/* line 18, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_footer.scss */
+.footer-nav-menu-item a {
+  display: inline-block;
+  padding: 1em 0.5em;
+}
+
+@media (min-width: 768px) {
+  /* line 27, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/style.scss */
   main {
     min-height: 800px;
   }
