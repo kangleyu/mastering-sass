@@ -1465,6 +1465,71 @@ p, h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
 }
 
+/* line 6, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_testimonials.scss */
+.testimonial {
+  max-width: 20em;
+  margin: 0 auto;
+  padding: 1em;
+  overflow: hidden;
+  text-align: center;
+}
+/* line 88, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/helpers/mixins/_media.scss */
+.testimonial-image {
+  display: block;
+  float: none;
+  margin: 0 auto;
+  border-radius: 9999px;
+}
+/* line 101, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/helpers/mixins/_media.scss */
+.testimonial-title {
+  margin-top: 0;
+  text-transform: uppercase;
+  color: black;
+  margin-top: 1em;
+}
+/* line 28, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/helpers/mixins/_media.scss */
+.testimonial-title a {
+  text-decoration: none;
+  color: inherit;
+}
+/* line 4, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/helpers/mixins/_hover-link.scss */
+.testimonial-title a:hover, .testimonial-title a:focus {
+  text-decoration: underline;
+}
+/* line 31, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/helpers/mixins/_media.scss */
+.testimonial-title a:hover {
+  color: inherit;
+}
+/* line 107, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/helpers/mixins/_media.scss */
+.testimonial-button {
+  padding: 0.25em 0.5em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  border: 1px solid transparent;
+  float: none;
+}
+/* line 55, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/helpers/mixins/_media.scss */
+.testimonial-button:hover {
+  color: black;
+  background: transparent;
+  border: 1px solid;
+}
+/* line 12, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_testimonials.scss */
+.testimonials {
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/* line 19, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_testimonials.scss */
+.testimonials-overlay {
+  min-height: 300px;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
 /* line 1, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_footer.scss */
 .footer {
   overflow: hidden;
@@ -5913,7 +5978,7 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 @media (min-width: 768px) {
-  /* line 54, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/style.scss */
+  /* line 60, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/style.scss */
   main {
     min-height: 800px;
   }
