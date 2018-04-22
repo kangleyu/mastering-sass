@@ -6,6 +6,8 @@
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
+@import url("http://fonts.useso.com/css?family=Bilbo+Swash+Caps");
+@import url("http://fonts.useso.com/css?family=Roboto");
 /* line 11, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/base/_normalize.scss */
 html {
   line-height: 1.15;
@@ -1093,11 +1095,11 @@ p, h1, h2, h3, h4, h5, h6 {
   }
 }
 
-/* line 1, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_main-header.scss */
+/* line 2, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_main-header.scss */
 .main-header-inner {
   padding: 0.5em;
 }
-/* line 4, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_main-header.scss */
+/* line 5, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_main-header.scss */
 .main-header-inner-left {
   width: 100%;
   float: left;
@@ -1105,14 +1107,14 @@ p, h1, h2, h3, h4, h5, h6 {
   margin-right: 0;
 }
 @media (min-width: 768px) {
-  /* line 4, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_main-header.scss */
+  /* line 5, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_main-header.scss */
   .main-header-inner-left {
     width: 65.95745%;
     float: left;
     margin-right: 2.12766%;
   }
 }
-/* line 12, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_main-header.scss */
+/* line 13, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_main-header.scss */
 .main-header-inner-right {
   width: 100%;
   float: left;
@@ -1120,12 +1122,23 @@ p, h1, h2, h3, h4, h5, h6 {
   margin-right: 0;
 }
 @media (min-width: 768px) {
-  /* line 12, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_main-header.scss */
+  /* line 13, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_main-header.scss */
   .main-header-inner-right {
     width: 31.91489%;
     float: right;
     margin-right: 0;
+    padding-top: 1.25em;
   }
+}
+/* line 23, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_main-header.scss */
+.main-header-title {
+  font-size: 1.75em;
+}
+/* line 26, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_main-header.scss */
+.main-header-title > span {
+  font-family: "Bilbo Swash Caps", cursive;
+  font-size: 2em;
+  font-style: italic;
 }
 
 /* line 1, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_main-nav.scss */
@@ -6100,8 +6113,18 @@ p, h1, h2, h3, h4, h5, h6 {
   content: "";
 }
 
+/* line 18, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/theme/_typography.scss */
+body {
+  font-family: "Verdana", Geneva, sans-serif;
+}
+
+/* line 22, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/theme/_typography.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Robot", Helvetica, Arial, Sans-serif;
+}
+
 @media (min-width: 768px) {
-  /* line 62, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/style.scss */
+  /* line 76, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/style.scss */
   main {
     min-height: 800px;
   }

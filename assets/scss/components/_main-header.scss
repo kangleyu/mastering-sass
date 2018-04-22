@@ -1,19 +1,32 @@
-.main-header-inner {
-  padding: $spacing / 2;
+.main-header {
+  &-inner {
+    padding: $spacing / 2;
 
-  &-left {
-    @include span(12);
-
-    @include bp {
-      @include span(8);
+    &-left {
+      @include span(12);
+  
+      @include bp {
+        @include span(8);
+      }
+    }
+  
+    &-right {
+      @include span(12);
+  
+      @include bp {
+        @include span(4 last);
+        padding-top: $spacing * 1.25;
+      }
     }
   }
 
-  &-right {
-    @include span(12);
+  &-title {
+    font-size: 1.75em;
 
-    @include bp {
-      @include span(4 last);
+    > span {
+      font-family: $accent-font-family;
+      font-size: 2em;
+      font-style: italic;
     }
   }
 }

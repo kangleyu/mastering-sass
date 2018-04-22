@@ -1,0 +1,24 @@
+$fonts: (
+  'Bilbo+Swash+Caps',
+  'Roboto'
+) !default;
+
+$main-font: 'Verdana' !default;
+$secondary-font: 'Robot' !default;
+$tertiary-font: 'Bilbo Swash Caps' !default;
+
+$body-font-family: ($main-font, Geneva, sans-serif) !default;
+$heading-font-family: ($secondary-font, Helvetica, Arial, Sans-serif) !default;
+$accent-font-family: ($tertiary-font, cursive) !default;
+
+@each $font in $fonts {
+  @import url('http://fonts.useso.com/css?family=#{$font}');
+}
+
+body {
+  font-family: $body-font-family;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $heading-font-family;
+}

@@ -1,3 +1,16 @@
+$fonts: (
+  'Bilbo+Swash+Caps',
+  'Roboto'
+);
+
+$main-font: 'Verdana';
+$secondary-font: 'Robot';
+$tertiary-font: 'Bilbo Swash Caps';
+
+$body-font-family: ($main-font, Geneva, sans-serif);
+$heading-font-family: ($secondary-font, Helvetica, Arial, Sans-serif);
+$accent-font-family: ($tertiary-font, cursive);
+
 $spacing: 1em;
 $default-breakpoint: medium;
 $breakpoints: (
@@ -58,6 +71,7 @@ $ionicons-font-path: "fonts/ionicons";
 @import "components/subfooter.scss";
 @import "components/footer.scss";
 @import "theme/ionicons/ionicons.scss";
+@import "theme/typography";
 
 main {
   @include bp {
