@@ -1347,6 +1347,124 @@ p, h1, h2, h3, h4, h5, h6 {
   }
 }
 
+/* line 1, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_featured-product.scss */
+.featured-product {
+  width: 100%;
+  float: left;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+/* line 7, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_featured-product.scss */
+.featured-product-title {
+  padding-top: 1em;
+}
+/* line 11, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_featured-product.scss */
+.featured-products {
+  max-width: 1160px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1em 0.5em;
+}
+/* line 12, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/bower_components/susy/sass/susy/output/support/_clearfix.scss */
+.featured-products:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+@media (min-width: 480px) {
+  /* line 19, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_featured-product.scss */
+  .featured-product {
+    width: 48.93617%;
+    float: left;
+    margin-right: 2.12766%;
+  }
+  /* line 22, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_featured-product.scss */
+  .featured-product:nth-child(2), .featured-product:nth-child(4) {
+    width: 48.93617%;
+    float: right;
+    margin-right: 0;
+  }
+}
+@media (min-width: 768px) {
+  /* line 30, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_featured-product.scss */
+  .featured-product {
+    width: 23.40426%;
+    float: left;
+    margin-right: 2.12766%;
+  }
+  /* line 35, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_featured-product.scss */
+  .featured-product:nth-child(2) {
+    width: 23.40426%;
+    float: left;
+    margin-right: 2.12766%;
+  }
+  /* line 39, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_featured-product.scss */
+  .featured-product:nth-child(4) {
+    width: 23.40426%;
+    float: right;
+    margin-right: 0;
+  }
+}
+/* line 1, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_product-centered.scss */
+.product-centered {
+  padding: 1em;
+  overflow: hidden;
+  text-align: center;
+  padding-left: 0;
+  padding-right: 0;
+}
+/* line 88, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/helpers/mixins/_media.scss */
+.product-centered-image {
+  display: block;
+  float: none;
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+}
+/* line 101, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/helpers/mixins/_media.scss */
+.product-centered-title {
+  margin-top: 0;
+  text-transform: uppercase;
+  color: black;
+  margin-top: 1em;
+}
+/* line 28, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/helpers/mixins/_media.scss */
+.product-centered-title a {
+  text-decoration: none;
+  color: inherit;
+}
+/* line 4, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/helpers/mixins/_hover-link.scss */
+.product-centered-title a:hover, .product-centered-title a:focus {
+  text-decoration: underline;
+}
+/* line 31, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/helpers/mixins/_media.scss */
+.product-centered-title a:hover {
+  color: inherit;
+}
+/* line 107, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/helpers/mixins/_media.scss */
+.product-centered-button {
+  padding: 0.25em 0.5em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  border: 1px solid transparent;
+  float: none;
+}
+/* line 55, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/helpers/mixins/_media.scss */
+.product-centered-button:hover {
+  color: black;
+  background: transparent;
+  border: 1px solid;
+}
+/* line 7, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_product-centered.scss */
+.product-centered-title {
+  margin-top: 0;
+}
+
 /* line 1, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_footer.scss */
 .footer {
   overflow: hidden;
@@ -5795,7 +5913,7 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 @media (min-width: 768px) {
-  /* line 52, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/style.scss */
+  /* line 54, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/style.scss */
   main {
     min-height: 800px;
   }
