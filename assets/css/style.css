@@ -6160,6 +6160,27 @@ h1, h2, h3, h4, h5, h6 {
   color: black;
 }
 
+/* line 2, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/helpers/mixins/_tag-cloud.scss */
+.subfooter-widget-section-tagcloud .xs {
+  font-size: 0.5em;
+}
+/* line 6, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/helpers/mixins/_tag-cloud.scss */
+.subfooter-widget-section-tagcloud .sm {
+  font-size: 0.75em;
+}
+/* line 10, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/helpers/mixins/_tag-cloud.scss */
+.subfooter-widget-section-tagcloud .md {
+  font-size: 1em;
+}
+/* line 14, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/helpers/mixins/_tag-cloud.scss */
+.subfooter-widget-section-tagcloud .lg {
+  font-size: 1.25em;
+}
+/* line 18, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/helpers/mixins/_tag-cloud.scss */
+.subfooter-widget-section-tagcloud .xl {
+  font-size: 1.5em;
+}
+
 @media (min-width: 768px) {
   /* line 76, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/style.scss */
   main {

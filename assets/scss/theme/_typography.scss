@@ -30,3 +30,7 @@ h1, h2, h3, h4, h5, h6 {
 .subfooter-widget-section-text > p {
   @include dropcap;
 }
+
+.subfooter-widget-section-tagcloud {
+  @include tag-cloud;
+}
