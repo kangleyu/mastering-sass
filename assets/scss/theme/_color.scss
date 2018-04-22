@@ -60,4 +60,8 @@ $theme: (
       background-color: get($theme, color, primary); 
     } 
   } 
-}  
+}
+
+.service [class^="ion-"] { 
+  color: get($theme, color, primary); 
+}
