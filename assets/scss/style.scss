@@ -26,6 +26,11 @@ $cart: (
   transition-speed: 350ms
 );
 
+$image-banner: (
+  height: 400px,
+  overlay-color: hsla(0, 0%, 0%, 0.5)
+);
+
 // overrides for ionicons
 $ionicons-font-path: "fonts/ionicons";
 
@@ -38,6 +43,7 @@ $ionicons-font-path: "fonts/ionicons";
 @import "components/top-nav.scss";
 @import "components/main-header.scss";
 @import "components/main-nav.scss";
+@import "components/image-banner.scss";
 @import "components/search.scss";
 @import "components/cart.scss";
 @import "components/footer.scss";

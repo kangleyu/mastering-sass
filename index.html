@@ -224,6 +224,21 @@
   </div>
   <!-- END .cart -->
 
+  <!-- BEGIN .image-banner -->
+  <div class="image-banner" style="background-image: url('http://placehold.it/1280x400');">
+    <div class="image-banner-overlay">
+      <div class="image-banner-caption">
+        <h2 class="image-banner-caption-title">
+          Mastering Sass Swag
+        </h2>
+        <p class="image-banner-caption-body">
+          You bring the Sass...we'll bring the swag!
+        </p>
+        <a href="#products" class="image-banner-button">View our Swag &rarr;</a>
+      </div>
+    </div>
+  </div>
+  <!-- END .image-banner -->
   <main class="container">
     <section class="services container">
       <article class="col-12 col-6-small col-3-large">
@@ -307,11 +322,11 @@
       });
 
       // Main Nav Button 
-      $mainNavButton = $('#main-nav-menu-button'); 
- 
-      $mainNavButton.on('click', function (e) { 
-        e.preventDefault(); 
-        $(this).next().slideToggle(); 
+      $mainNavButton = $('#main-nav-menu-button');
+
+      $mainNavButton.on('click', function (e) {
+        e.preventDefault();
+        $(this).next().slideToggle();
       });
     });
   </script>
