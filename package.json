@@ -1,0 +1,23 @@
+{
+  "name": "mastering-sass-swag",
+  "version": "1.0.0",
+  "description": "Frontend for mastering sass swag",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass:compile": "sass --update --compass assets/scss/style.scss:assets/css/style.css",
+    "sass:watch": "sass --watch --compass assets/scss/style.scss:assets/css/style.css"
+  },
+  "author": "Tom Yu <yukangle@outlook.com> (http://www.kangleyu.me)",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.23.7",
+    "gulp": "^3.9.1",
+    "gulp-ruby-sass": "^3.0.0",
+    "gulp-sourcemaps": "^2.6.4",
+    "node-sass": "^4.8.3"
+  },
+  "dependencies": {
+    "jquery": "^3.3.1"
+  }
+}

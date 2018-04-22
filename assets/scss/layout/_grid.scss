@@ -1,0 +1,46 @@
+$grid: (
+  max-width: 1160px,
+  gutter: 1em
+ ) !default;
+
+ .container {
+   // Dimensions
+   max-width: get($grid, max-width);
+
+   // Positioning
+   margin: 0 auto;
+
+   // Clearfix
+   overflow: hidden;
+ }
+
+.column {
+  // Dimensions
+  padding-left: get($grid, gutter) / 2;
+  padding-right: get($grid, gutter) / 2;
+
+  // Positioning
+  float: left;
+
+  &:first-child {
+    padding-left: 0;
+  }
+
+  &:last-child {
+    padding-right: 0;
+  }
+}
+
+.one-thrid {
+  width: 100%;
+  @include bp {
+    width: (100% / 3);
+  }
+}
+
+.two-thirds {
+  width: 100%;
+  @include bp {
+    width: (100% / 3) * 2;
+  }
+}
