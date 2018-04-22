@@ -1,4 +1,6 @@
 .main-header {
+  overflow: hidden;
+
   &-inner {
     padding: $spacing / 2;
 
@@ -15,7 +17,7 @@
   
       @include bp {
         @include span(4 last);
-        padding-top: $spacing * 1.25;
+        padding-top: $spacing * 1.4;
       }
     }
   }
@@ -27,6 +29,11 @@
       font-family: $accent-font-family;
       font-size: 2em;
       font-style: italic;
+    }
+
+    @include bp {
+      margin-top: ($spacing * 0.4);
+      line-height: ($spacing * 1.5);
     }
   }
 }

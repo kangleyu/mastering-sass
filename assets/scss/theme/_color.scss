@@ -41,3 +41,23 @@ $theme: (
     color: get($theme, color, primary); 
   } 
 } 
+
+// Search
+.search-bar { 
+  &-input, &-button { 
+    border: 1px solid get($theme, color, secondary); 
+
+    &:active, &:focus, &:hover { 
+      border: 1px solid get($theme, color, primary); 
+    } 
+  } 
+
+  &-button { 
+    background-color: get($theme, color, secondary); 
+    color: white; 
+
+    &:active, &:focus, &:hover { 
+      background-color: get($theme, color, primary); 
+    } 
+  } 
+}  
