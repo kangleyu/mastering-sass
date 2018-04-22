@@ -1,6 +1,15 @@
 .top-nav {
   overflow: hidden;
 
+  &-menu-item {
+    padding: $spacing / 2;
+    display: block;
+
+    @include bp(small) {
+      display: inline-block;
+    }
+  }
+
   &-contact-menu {
     @include bp {
       float: left;

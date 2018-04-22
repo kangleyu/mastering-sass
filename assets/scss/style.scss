@@ -1,3 +1,4 @@
+$spacing: 1em;
 $default-breakpoint: medium;
 $breakpoints: (
   small: 480px,
@@ -35,18 +36,12 @@ $ionicons-font-path: "fonts/ionicons";
 @import "base/typography.scss";
 @import "layout/grid.scss";
 @import "components/top-nav.scss";
+@import "components/main-header.scss";
+@import "components/main-nav.scss";
 @import "components/search.scss";
 @import "components/cart.scss";
 @import "components/footer.scss";
 @import "theme/ionicons/ionicons.scss";
-
-body {
-  background-color: darkred;
-
-  @include bp {
-    background-color: darkgreen;
-  }
-}
 
 main {
   @include bp {

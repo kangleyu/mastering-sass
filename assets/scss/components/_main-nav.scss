@@ -1,0 +1,10 @@
+.main-nav {
+  &-menu-item {
+    padding: $spacing / 2;
+    display: block;
+
+    @include bp(small) {
+      display: inline-block;
+    }
+  }
+}
