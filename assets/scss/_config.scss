@@ -14,17 +14,18 @@ $accent-font-family: ($tertiary-font, cursive);
 
 // Colors
 $red: hsl(0, 57%, 60%); 
+$blue: hsl(210, 40%, 60%);
 $dark-grey: hsl(0, 3%, 22%); 
  
 $theme: ( 
     color: ( 
-        primary: $red, 
+        primary: $blue, 
         secondary: $dark-grey 
     ) 
 ); 
 
-// Sizes
-$spacing: 1em;
+// Layouts
+$spacing: 2em;
 $default-breakpoint: medium;
 $breakpoints: (
   small: 480px,
@@ -32,7 +33,6 @@ $breakpoints: (
   large: 980px
 );
 
-// Layout
 $susy: ( 
   container: 1160px, 
   columns: 12,

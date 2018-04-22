@@ -5539,7 +5539,7 @@ h1, h2, h3, h4, h5, h6 {
 /* line 48, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/theme/_typography.scss */
 .section-title {
   text-align: center;
-  padding-top: 1em;
+  padding-top: 2em;
 }
 /* line 4, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/helpers/mixins/_underline.scss */
 .section-title::after {
@@ -5547,7 +5547,7 @@ h1, h2, h3, h4, h5, h6 {
   content: " ";
   position: relative;
   height: 3px;
-  background-color: #d35f5f;
+  background-color: #7099c2;
   top: 0;
   width: 3em;
   margin-top: 0.75em;
@@ -5562,7 +5562,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* line 17, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/theme/_color.scss */
 .top-nav {
-  background-color: #d35f5f;
+  background-color: #7099c2;
 }
 /* line 20, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/theme/_color.scss */
 .top-nav a {
@@ -5583,11 +5583,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 /* line 34, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/theme/_color.scss */
 .main-nav-menu-item:hover a {
-  color: #d35f5f;
+  color: #7099c2;
 }
 /* line 40, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/theme/_color.scss */
 .main-header-title > span {
-  color: #d35f5f;
+  color: #7099c2;
 }
 
 /* line 47, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/theme/_color.scss */
@@ -5596,7 +5596,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 /* line 50, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/theme/_color.scss */
 .search-bar-input:active, .search-bar-input:focus, .search-bar-input:hover, .search-bar-button:active, .search-bar-button:focus, .search-bar-button:hover {
-  border: 1px solid #d35f5f;
+  border: 1px solid #7099c2;
 }
 /* line 55, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/theme/_color.scss */
 .search-bar-button {
@@ -5605,12 +5605,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 /* line 59, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/theme/_color.scss */
 .search-bar-button:active, .search-bar-button:focus, .search-bar-button:hover {
-  background-color: #d35f5f;
+  background-color: #7099c2;
 }
 
 /* line 65, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/theme/_color.scss */
 .service [class^="ion-"] {
-  color: #d35f5f;
+  color: #7099c2;
 }
 
 /* line 69, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/theme/_color.scss */
@@ -5624,7 +5624,7 @@ h1, h2, h3, h4, h5, h6 {
 .footer .subfooter a,
 .footer .subfooter a:hover {
   text-decoration: none;
-  color: #d35f5f;
+  color: #7099c2;
 }
 /* line 4, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/helpers/mixins/_hover-link.scss */
 .footer a:hover, .footer a:focus,
@@ -5638,7 +5638,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 /* line 81, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/theme/_color.scss */
 .footer .subfooter-widget-section-text > p:first-of-type::first-letter {
-  color: #d35f5f;
+  color: #7099c2;
 }
 /* line 85, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/theme/_color.scss */
 .footer .footer-inner:last-child {
@@ -5651,7 +5651,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 /* line 4, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_top-nav.scss */
 .top-nav-menu-button {
-  padding: 0.5em;
+  padding: 1em;
 }
 @media (min-width: 480px) {
   /* line 4, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_top-nav.scss */
@@ -5671,7 +5671,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 /* line 20, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_top-nav.scss */
 .top-nav-menu-item {
-  padding: 0.5em;
+  padding: 1em;
   display: block;
 }
 @media (min-width: 480px) {
@@ -5699,7 +5699,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 /* line 4, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_main-header.scss */
 .main-header-inner {
-  padding: 0.5em;
+  padding: 1em;
 }
 /* line 7, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_main-header.scss */
 .main-header-inner-left {
@@ -5729,7 +5729,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 31.91489%;
     float: right;
     margin-right: 0;
-    padding-top: 1.4em;
+    padding-top: 2.8em;
   }
 }
 /* line 25, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_main-header.scss */
@@ -5745,8 +5745,8 @@ h1, h2, h3, h4, h5, h6 {
 @media (min-width: 768px) {
   /* line 25, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_main-header.scss */
   .main-header-title {
-    margin-top: 0.4em;
-    line-height: 1.5em;
+    margin-top: 0.8em;
+    line-height: 3em;
   }
 }
 
@@ -5756,7 +5756,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 /* line 4, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_main-nav.scss */
 .main-nav-menu-button {
-  padding: 0.5em;
+  padding: 1em;
 }
 @media (min-width: 480px) {
   /* line 4, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_main-nav.scss */
@@ -5776,7 +5776,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 /* line 20, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_main-nav.scss */
 .main-nav-menu-item {
-  padding: 0.5em;
+  padding: 1em;
   display: block;
 }
 @media (min-width: 480px) {
@@ -5808,7 +5808,7 @@ h1, h2, h3, h4, h5, h6 {
   max-width: 1160px;
   margin-left: auto;
   margin-right: auto;
-  padding: 0.5em;
+  padding: 1em;
   overflow: hidden;
   color: white;
 }
@@ -5850,13 +5850,13 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
   text-decoration: none;
   color: white;
-  background-color: #d35f5f;
+  background-color: #7099c2;
   border: 1px solid transparent;
   float: none;
 }
 /* line 55, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/helpers/mixins/_media.scss */
 .image-banner-button:hover {
-  color: #d35f5f;
+  color: #7099c2;
   background: transparent;
   border: 1px solid;
 }
@@ -5976,19 +5976,19 @@ h1, h2, h3, h4, h5, h6 {
   float: left;
   margin-left: 0;
   margin-right: 0;
-  padding-left: 1em;
-  padding-right: 1em;
+  padding-left: 2em;
+  padding-right: 2em;
 }
 /* line 7, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_featured-product.scss */
 .featured-product-title {
-  padding-top: 1em;
+  padding-top: 2em;
 }
 /* line 11, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_featured-product.scss */
 .featured-products {
   max-width: 1160px;
   margin-left: auto;
   margin-right: auto;
-  padding: 1em 0.5em;
+  padding: 2em 1em;
 }
 /* line 12, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/bower_components/susy/sass/susy/output/support/_clearfix.scss */
 .featured-products:after {
@@ -6051,7 +6051,7 @@ h1, h2, h3, h4, h5, h6 {
 .product-centered-title {
   margin-top: 0;
   text-transform: uppercase;
-  color: #d35f5f;
+  color: #7099c2;
   margin-top: 1em;
 }
 /* line 28, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/helpers/mixins/_media.scss */
@@ -6073,13 +6073,13 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
   text-decoration: none;
   color: white;
-  background-color: #d35f5f;
+  background-color: #7099c2;
   border: 1px solid transparent;
   float: none;
 }
 /* line 55, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/helpers/mixins/_media.scss */
 .product-centered-button:hover {
-  color: #d35f5f;
+  color: #7099c2;
   background: transparent;
   border: 1px solid;
 }
@@ -6152,8 +6152,8 @@ h1, h2, h3, h4, h5, h6 {
 /* line 23, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_testimonials.scss */
 .testimonials-overlay {
   min-height: 300px;
-  padding-top: 2em;
-  padding-bottom: 2em;
+  padding-top: 4em;
+  padding-bottom: 4em;
   background-color: rgba(0, 0, 0, 0.5);
 }
 
@@ -6169,7 +6169,7 @@ h1, h2, h3, h4, h5, h6 {
   max-width: 1160px;
   margin-left: auto;
   margin-right: auto;
-  padding: 1em 0.5em;
+  padding: 2em 1em;
 }
 /* line 12, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/bower_components/susy/sass/susy/output/support/_clearfix.scss */
 .services:after {
@@ -6214,7 +6214,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 /* line 1, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_subfooter.scss */
 .subfooter {
-  padding: 2em 0.5em 1em 0.5em;
+  padding: 4em 1em 2em 1em;
 }
 /* line 4, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_subfooter.scss */
 .subfooter ul {
@@ -6233,13 +6233,13 @@ h1, h2, h3, h4, h5, h6 {
 .subfooter-widget-product {
   padding: 1em;
   overflow: hidden;
-  padding: 0 0 0.5em 0;
+  padding: 0 0 1em 0;
 }
 /* line 18, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_subfooter.scss */
 .subfooter-widget-product-image {
   display: block;
   float: left;
-  margin-right: 1em;
+  margin-right: 2em;
 }
 /* line 22, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_subfooter.scss */
 .subfooter-widget-product-title {
@@ -6293,7 +6293,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 /* line 11, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_footer.scss */
 .footer-copyright {
-  padding: 1em 0.5em;
+  padding: 2em 1em;
 }
 /* line 15, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_footer.scss */
 .footer-nav-menu {
@@ -6302,7 +6302,7 @@ h1, h2, h3, h4, h5, h6 {
 /* line 18, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_footer.scss */
 .footer-nav-menu-item a {
   display: inline-block;
-  padding: 1em 0.5em;
+  padding: 2em 1em;
 }
 
 @media (min-width: 768px) {
