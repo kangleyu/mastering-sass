@@ -8,7 +8,16 @@
     }
   }
 
+  &-copyright {
+    padding: $spacing ($spacing / 2);
+  }
+
   &-nav-menu {
     float: right;
+
+    &-item a {
+      display: inline-block;
+      padding: $spacing ($spacing / 2);
+    }
   }
 }
