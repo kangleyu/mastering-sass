@@ -12,6 +12,10 @@
 <body>
   <!-- BEGIN .top-nav -->
   <nav class="top-nav">
+    <a href="javascript:;" class="top-nav-menu-button" id="top-nav-menu-button">
+      <span class="ion-navicon"></span>
+      <span class="screen-reader-text">Top Nav Button</span>
+    </a>
     <div class="container">
       <!-- CONTACT RELATED MENUS -->
       <ul class="top-nav-menu top-nav-contact-menu">
@@ -45,7 +49,7 @@
         </li>
       </ul>
       <!-- CART RELATED MENUS -->
-      <ul class="top-nav-menu-item top-nav-shop-menu">
+      <ul class="top-nav-menu top-nav-shop-menu">
         <li class="top-nav-menu-item top-nav-shop-menu-item">
           <span class="ion-filing"></span>
           <a href="#">
@@ -99,6 +103,12 @@
   <!-- END .main-header -->
   <!-- BEGIN .main-nav -->
   <nav class="main-nav">
+    <a href="javascript:;" class="main-nav-menu-button" id="main-nav-menu-button">
+      <span class="ion-navicon-round"></span>
+      <span class="screen-reader-text">
+        Main Menu Button
+      </span>
+    </a>
     <ul class="main-nav-menu container">
       <li class="main-nav-menu-item">
         <a href="#">Home</a>
@@ -286,6 +296,22 @@
       // close cart popup
       $cartCloseButton.on('click', function () {
         $cart.removeClass('is-opened');
+      });
+
+      // Top Nav Button
+      $topNavButton = $('#top-nav-menu-button');
+
+      $topNavButton.on('click', function (e) {
+        e.preventDefault();
+        $(this).next().slideToggle();
+      });
+
+      // Main Nav Button 
+      $mainNavButton = $('#main-nav-menu-button'); 
+ 
+      $mainNavButton.on('click', function (e) { 
+        e.preventDefault(); 
+        $(this).next().slideToggle(); 
       });
     });
   </script>

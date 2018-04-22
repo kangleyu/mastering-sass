@@ -1,4 +1,22 @@
 .main-nav {
+  overflow: hidden;
+
+  &-menu-button { 
+    padding: $spacing / 2; 
+
+    @include bp(small) { 
+      display: none; 
+    } 
+
+    ~ * { 
+      display: none; 
+
+      @include bp(small) { 
+        display: block; 
+      } 
+    } 
+  }
+
   &-menu-item {
     padding: $spacing / 2;
     display: block;

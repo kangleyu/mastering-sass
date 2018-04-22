@@ -1050,24 +1050,44 @@ p, h1, h2, h3, h4, h5, h6 {
   overflow: hidden;
 }
 /* line 4, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_top-nav.scss */
+.top-nav-menu-button {
+  padding: 0.5em;
+}
+@media (min-width: 480px) {
+  /* line 4, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_top-nav.scss */
+  .top-nav-menu-button {
+    display: none;
+  }
+}
+/* line 11, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_top-nav.scss */
+.top-nav-menu-button ~ * {
+  display: none;
+}
+@media (min-width: 480px) {
+  /* line 11, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_top-nav.scss */
+  .top-nav-menu-button ~ * {
+    display: block;
+  }
+}
+/* line 20, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_top-nav.scss */
 .top-nav-menu-item {
   padding: 0.5em;
   display: block;
 }
 @media (min-width: 480px) {
-  /* line 4, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_top-nav.scss */
+  /* line 20, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_top-nav.scss */
   .top-nav-menu-item {
     display: inline-block;
   }
 }
 @media (min-width: 768px) {
-  /* line 13, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_top-nav.scss */
+  /* line 29, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_top-nav.scss */
   .top-nav-contact-menu {
     float: left;
   }
 }
 @media (min-width: 768px) {
-  /* line 19, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_top-nav.scss */
+  /* line 35, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_top-nav.scss */
   .top-nav-shop-menu {
     float: right;
   }
@@ -1108,13 +1128,37 @@ p, h1, h2, h3, h4, h5, h6 {
   }
 }
 
-/* line 2, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_main-nav.scss */
+/* line 1, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_main-nav.scss */
+.main-nav {
+  overflow: hidden;
+}
+/* line 4, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_main-nav.scss */
+.main-nav-menu-button {
+  padding: 0.5em;
+}
+@media (min-width: 480px) {
+  /* line 4, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_main-nav.scss */
+  .main-nav-menu-button {
+    display: none;
+  }
+}
+/* line 11, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_main-nav.scss */
+.main-nav-menu-button ~ * {
+  display: none;
+}
+@media (min-width: 480px) {
+  /* line 11, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_main-nav.scss */
+  .main-nav-menu-button ~ * {
+    display: block;
+  }
+}
+/* line 20, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_main-nav.scss */
 .main-nav-menu-item {
   padding: 0.5em;
   display: block;
 }
 @media (min-width: 480px) {
-  /* line 2, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_main-nav.scss */
+  /* line 20, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_main-nav.scss */
   .main-nav-menu-item {
     display: inline-block;
   }
