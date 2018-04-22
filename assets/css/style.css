@@ -1453,7 +1453,7 @@ p, h1, h2, h3, h4, h5, h6 {
 .product-centered-title {
   margin-top: 0;
   text-transform: uppercase;
-  color: black;
+  color: #d35f5f;
   margin-top: 1em;
 }
 /* line 28, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/helpers/mixins/_media.scss */
@@ -1475,13 +1475,13 @@ p, h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
   text-decoration: none;
   color: white;
-  background-color: black;
+  background-color: #d35f5f;
   border: 1px solid transparent;
   float: none;
 }
 /* line 55, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/helpers/mixins/_media.scss */
 .product-centered-button:hover {
-  color: black;
+  color: #d35f5f;
   background: transparent;
   border: 1px solid;
 }
