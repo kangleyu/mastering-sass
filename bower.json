@@ -1,0 +1,20 @@
+{
+  "name": "mastering-sass-swag",
+  "description": "Frontend for mastering sass swag",
+  "main": "gulpfile.js",
+  "authors": [
+    "Tom Yu <yukangle@outlook.com> (http://www.kangleyu.me)"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "susy": "2.2.12"
+  }
+}

@@ -1,46 +1,30 @@
-$grid: (
-  max-width: 1160px,
-  gutter: 1em
- ) !default;
-
+ // Grid system based on susy
  .container {
-   // Dimensions
-   max-width: get($grid, max-width);
-
-   // Positioning
-   margin: 0 auto;
-
-   // Clearfix
-   overflow: hidden;
+  @include container; 
  }
 
-.column {
-  // Dimensions
-  padding-left: get($grid, gutter) / 2;
-  padding-right: get($grid, gutter) / 2;
+ // Generating the col-*
+@for $i from 1 through get($susy, columns) {
+  .col-#{$i} {
+    @include span($i);
 
-  // Positioning
-  float: left;
-
-  &:first-child {
-    padding-left: 0;
-  }
-
-  &:last-child {
-    padding-right: 0;
+    &-last {
+      @include span($i last);
+    }
   }
 }
 
-.one-thrid {
-  width: 100%;
-  @include bp {
-    width: (100% / 3);
-  }
-}
-
-.two-thirds {
-  width: 100%;
-  @include bp {
-    width: (100% / 3) * 2;
+// Generating the col-*-small/medium/large etc.
+@each $size, $value in $breakpoints {
+  @include bp($size) {
+    @for $i from 1 through get($susy, columns) {
+      .col-#{$i}-#{$size} {
+        @include span($i);
+    
+        &-last {
+          @include span($i last);
+        }
+      }
+    }
   }
 }
