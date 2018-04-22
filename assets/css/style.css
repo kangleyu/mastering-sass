@@ -1212,6 +1212,7 @@ p, h1, h2, h3, h4, h5, h6 {
   margin-right: auto;
   padding: 0.5em;
   overflow: hidden;
+  color: white;
 }
 /* line 12, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/bower_components/susy/sass/susy/output/support/_clearfix.scss */
 .image-banner-caption:after {
@@ -1226,7 +1227,7 @@ p, h1, h2, h3, h4, h5, h6 {
     top: 100px;
   }
 }
-/* line 28, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_image-banner.scss */
+/* line 31, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_image-banner.scss */
 .image-banner-caption-title {
   margin-top: 0;
   text-transform: uppercase;
@@ -1245,19 +1246,19 @@ p, h1, h2, h3, h4, h5, h6 {
 .image-banner-caption-title a:hover {
   color: inherit;
 }
-/* line 33, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_image-banner.scss */
+/* line 36, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/components/_image-banner.scss */
 .image-banner-button {
   padding: 0.25em 0.5em;
   text-transform: uppercase;
   text-decoration: none;
   color: white;
-  background-color: black;
+  background-color: #d35f5f;
   border: 1px solid transparent;
   float: none;
 }
 /* line 55, ../../../../../../../Users/tomyu/Developer/workspace/web/mastering-sass-swag/assets/scss/helpers/mixins/_media.scss */
 .image-banner-button:hover {
-  color: black;
+  color: #d35f5f;
   background: transparent;
   border: 1px solid;
 }
